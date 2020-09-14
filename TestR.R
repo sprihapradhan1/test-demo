@@ -9,3 +9,5 @@ str(mtcars)
 # Execute the following command - cyl is treated as continuos
 ggplot(mtcars, aes(cyl, mpg)) +
   geom_point()
+
+library(dplyr)
